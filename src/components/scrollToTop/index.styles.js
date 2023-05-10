@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { devices } from "../../responsive";
 
 export const ScrollToTopContainer = styled.div`
   background-color: #151922;
@@ -11,5 +12,9 @@ export const ScrollToTopContainer = styled.div`
   cursor: pointer;
   bottom: 50px;
   position: sticky;
-  margin-left: 95vw;
+  margin-left: 90vw;
+
+  @media ${devices.mobile} {
+    margin-left: 85vw;
+  }
 `;

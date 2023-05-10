@@ -1,18 +1,13 @@
-/* eslint-disable react/prop-types */
-import { useEffect } from "react";
-import { withRouter } from "react-router-dom";
+import { useLayoutEffect } from "react";
+import { useLocation } from "react-router-dom";
 
-function ScrollToTop({ history }) {
-  useEffect(() => {
-    const unlisten = history.listen(() => {
-      window.scrollTo(0, 0);
-    });
-    return () => {
-      unlisten();
-    };
-  }, []);
+const ScrollToTop = ({ children }) => {
+  const location = useLocation();
 
-  return null;
-}
+  useLayoutEffect(() => {
+    document.documentElement.scrollTo(0, 0);
+  }, [location.pathname]);
+  return children;
+};
 
-export default withRouter(ScrollToTop);
+export default ScrollToTop;

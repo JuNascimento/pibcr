@@ -11,6 +11,7 @@ import {
   EventImage,
   ModalContainer,
   EventImageZoom,
+  EventImages,
 } from "./index.styles";
 import { EventSvg } from "../svgIcons/eventSvg";
 
@@ -63,7 +64,11 @@ const EventsContainer = () => {
             return (
               <Month key={`month-${index}`} isActive={isCurrentMonth}>
                 <MonthTitle>{month}</MonthTitle>
-                <div>
+                <EventImages>
+                  <EventImage
+                    src="images/foto3.jpeg"
+                    onClick={() => onClick("images/foto3.jpeg")}
+                  />
                   <EventImage
                     src="images/foto3.jpeg"
                     onClick={() => onClick("images/foto3.jpeg")}
@@ -76,7 +81,7 @@ const EventsContainer = () => {
                     src="images/foto5.jpeg"
                     onClick={() => onClick("images/foto5.jpeg")}
                   />
-                </div>
+                </EventImages>
               </Month>
             );
           }
@@ -88,7 +93,7 @@ const EventsContainer = () => {
             return (
               <Month key={`month-${index}`} isActive={isCurrentMonth}>
                 <MonthTitle>{month}</MonthTitle>
-                <div>
+                <EventImages>
                   <EventImage
                     src="images/seminario-iniciacao-profetica.jpeg"
                     onClick={() => onClick("images/foto3.jpeg")}
@@ -101,7 +106,7 @@ const EventsContainer = () => {
                     src="images/foto5.jpeg"
                     onClick={() => onClick("images/foto5.jpeg")}
                   />
-                </div>
+                </EventImages>
               </Month>
             );
           }

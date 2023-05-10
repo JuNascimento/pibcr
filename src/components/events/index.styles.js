@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import { devices } from "../../responsive";
 
 export const Events = styled.section`
   padding: 10px 0;
-  box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px 0 #ccc;
 `;
 
 export const EventsTitle = styled.div`
@@ -13,9 +14,17 @@ export const EventsTitle = styled.div`
 
 export const EventsTitleLabel = styled.h2`
   color: #ccc;
-  font-size: 40px;
+  font-size: 3vw;
   text-align: center;
   margin-right: 20px;
+
+  @media ${devices.mobile} {
+    font-size: 6vw;
+  }
+
+  @media ${devices.tablet} {
+    font-size: 5vw;
+  }
 `;
 
 export const EventsSubtitleLabel = styled.h3`
@@ -27,7 +36,15 @@ export const EventsSubtitleLabel = styled.h3`
 
 export const EventsCategoryTitle = styled.h4`
   color: #ccc;
-  font-size: 35px;
+  font-size: 2vw;
+
+  @media ${devices.mobile} {
+    font-size: 4vw;
+  }
+
+  @media ${devices.tablet} {
+    font-size: 4vw;
+  }
 `;
 
 export const EventsContent = styled.section`
@@ -47,6 +64,14 @@ export const Month = styled.article`
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
+
+  @media ${devices.mobile} {
+    justify-content: center;
+  }
+
+  @media ${devices.tablet} {
+    justify-content: center;
+  }
 `;
 
 export const MonthTitle = styled.h3`
@@ -56,15 +81,52 @@ export const MonthTitle = styled.h3`
   color: #393d45;
 `;
 
+export const EventImages = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  @media ${devices.tablet} {
+    flex-direction: column;
+  }
+
+  @media ${devices.mobile} {
+    flex-direction: column;
+  }
+`;
+
 export const EventImage = styled.img`
-  margin: 0 20px;
-  max-height: 200px;
+  margin: 20px;
   cursor: zoom-in;
+  width: 30%;
+
+  @media ${devices.mobile} {
+    width: 50vw;
+    margin: 20px;
+  }
+
+  @media ${devices.tablet} {
+    width: 50vw;
+    margin: 20px;
+  }
 `;
 
 export const EventImageZoom = styled.img`
-  width: 40%;
+  width: 70vw;
+  max-width: 600px;
   cursor: zoom-out;
+
+  @media ${devices.mobile} {
+    width: 90vw;
+    /* margin: 20px; */
+  }
+
+  @media ${devices.tablet} {
+    width: 85vw;
+    /* margin: 20px; */
+  }
 `;
 
 export const ModalContainer = styled.div`

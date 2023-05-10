@@ -6,7 +6,7 @@ export const About = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 10px 0;
-  box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px 0 #ccc;
 `;
 
 export const Title = styled.h1`
@@ -135,7 +135,6 @@ export const Number = styled.span`
 `;
 
 export const DescriptionDivision = styled.div`
-  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -148,6 +147,7 @@ export const KnowMoreText = styled.h2`
   color: #ccc;
   font-weight: 300;
   margin-right: 20px;
+  text-align: center;
 
   a {
     text-decoration: underline;
@@ -161,4 +161,6 @@ export const KnowMoreText = styled.h2`
 export const KnowMore = styled.div`
   display: flex;
   align-items: center;
+  width: 80%;
+  justify-content: center;
 `;

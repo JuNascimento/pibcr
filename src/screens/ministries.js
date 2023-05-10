@@ -1,6 +1,7 @@
 import FooterContainer from "../components/footer";
 import HeaderContainer from "../components/header";
 import MinistriesContainer from "../components/ministries";
+import ScrollToTop from "../helpers/scrollToTop";
 // import SliderContainer from "../components/slider";
 
 const Ministries = () => {
@@ -33,12 +34,12 @@ const Ministries = () => {
   // ];
 
   return (
-    <>
+    <ScrollToTop>
       <HeaderContainer />
       {/* <SliderContainer sliderItems={sliderItems} isHome={false} /> */}
       <MinistriesContainer />
       <FooterContainer />
-    </>
+    </ScrollToTop>
   );
 };
 

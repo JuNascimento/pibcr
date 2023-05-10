@@ -9,7 +9,6 @@ export const CarouselList = styled.ul`
 export const CarouselItem = styled.li`
   width: 100px;
   background-color: "aqua";
-  border: 1px solid red;
   font-size: "50px";
   width: "250px";
   height: "250px";

@@ -6,7 +6,7 @@ export const Slider = styled.section`
   width: 100vw;
   max-height: 65vh;
   overflow: hidden;
-  box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px 0 #ccc;
 `;
 
 export const SliderItem = styled.div`

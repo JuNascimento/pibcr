@@ -272,7 +272,7 @@ class MinistriesContainer extends Component {
             <Ministry>
               <MinistryName>Ministério de Tecnologia e Suporte </MinistryName>
               <MinistryInfo>
-                <MinistryLogo src="images/vida-ativa.png" />ß
+                <MinistryLogo src="images/vida-ativa.png" />
                 <MinistryDescription>
                   <MinistryDescriptionText left={true}>
                     Setor específico de apoio aos Ministérios, voltado para o

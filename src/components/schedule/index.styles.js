@@ -1,5 +1,5 @@
 import styled from "styled-components";
-// import { devices } from "../../responsive";
+import { devices } from "../../responsive";
 
 export const Schedule = styled.section`
   background-color: #ccc;
@@ -14,9 +14,17 @@ export const ScheduleTitle = styled.div`
 
 export const ScheduleTitleLabel = styled.h2`
   color: #393d45;
-  font-size: 40px;
+  font-size: 3vw;
   text-align: center;
   margin-right: 20px;
+
+  @media ${devices.mobile} {
+    font-size: 6vw;
+  }
+
+  @media ${devices.tablet} {
+    font-size: 5vw;
+  }
 `;
 
 export const ScheduleInfo = styled.section`
@@ -28,14 +36,12 @@ export const ScheduleInfo = styled.section`
 `;
 
 export const Week = styled.section`
-  /* border: 1px solid red; */
   width: 80%;
   margin: 30px 0;
 `;
 
 export const DaysOfWeek = styled.article`
-  /* border: 1px solid green; */
-  margin: 40px;
+  margin: 40px 0;
   padding: 40px;
   text-align: left;
   background-color: #151922;
@@ -43,6 +49,10 @@ export const DaysOfWeek = styled.article`
   h3 {
     color: #ccc;
     font-size: 25px;
+  }
+
+  @media ${devices.mobile} {
+    padding: 20px;
   }
 `;
 

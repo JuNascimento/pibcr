@@ -5,10 +5,11 @@ import WelcomeContainer from "../components/welcome";
 import DonationsContainer from "../components/donations";
 import YoutubeContainer from "../components/youtube";
 import CarouselContainer from "../components/carousel";
+import ScrollToTop from "../helpers/scrollToTop";
 
 const Home = () => {
   return (
-    <>
+    <ScrollToTop>
       <HeaderContainer />
       <CarouselContainer />
       <CelebrationsContainer />
@@ -16,7 +17,7 @@ const Home = () => {
       <DonationsContainer />
       <YoutubeContainer />
       <FooterContainer />
-    </>
+    </ScrollToTop>
   );
 };
 

@@ -12,7 +12,9 @@ import GrayLogo from "../../images/pibLogoCinza.png";
 const FooterContainer = () => {
   return (
     <Footer>
-      <LogoImage src={GrayLogo} />
+      <FooterDivision>
+        <LogoImage src={GrayLogo} />
+      </FooterDivision>
       <FooterDivision>
         <FooterTitle>Sobre nós</FooterTitle>
         <FooterText>

@@ -88,17 +88,17 @@ export const DonationItem = styled.article`
 export const DonationInfo = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   font-size: 1vw;
 
   @media ${devices.mobile} {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
   }
 
   @media ${devices.tablet} {
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
 `;
 
@@ -109,6 +109,7 @@ export const DonationItemInfo = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 80%;
+  /* border: 1px solid red; */
 
   div {
     display: flex;
@@ -140,6 +141,14 @@ export const DonationInput = styled.input`
   letter-spacing: 1px;
   background-color: #ccc;
   border: 1px solid #999;
+
+  @media ${devices.tablet} {
+    font-size: 2vw;
+  }
+
+  @media ${devices.mobile} {
+    font-size: 2vw;
+  }
 `;
 
 export const DonationCopyButton = styled.button`
@@ -159,15 +168,19 @@ export const DonationCopyPaste = styled.div`
 `;
 
 export const IconSvg = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   svg {
     width: 3.5vw;
 
     @media ${devices.mobile} {
-      width: 3.5vw;
+      width: 10vw;
     }
 
     @media ${devices.tablet} {
-      width: 80%;
+      width: 12vw;
     }
   }
 `;

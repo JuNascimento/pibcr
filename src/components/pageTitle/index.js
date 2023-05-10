@@ -19,6 +19,7 @@ import { ArrowSvg } from "../svgIcons/arrowSvg";
 import { MarkerSvg } from "../svgIcons/markerSvg";
 import { Link } from "react-router-dom";
 import MyComponent from "../maps";
+import { ROTA } from "../../variables";
 
 const AboutContainer = () => {
   return (
@@ -102,7 +103,7 @@ const AboutContainer = () => {
       <KnowMore>
         <KnowMoreText>
           Para saber mais sobre os ministérios, clique{" "}
-          <Link to={"/ministerios"}>aqui</Link>
+          <Link to={`${ROTA}ministerios`}>aqui</Link>
         </KnowMoreText>
         <ArrowSvg color="#ccc" />
         <ArrowSvg color="#ccc" />

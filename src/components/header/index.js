@@ -10,28 +10,30 @@ import {
   LiveIcon,
 } from "./index.styles";
 import { OpenMenuSvg, CloseMenuSvg } from "../svgIcons/menuSvg";
+// import { CloseSvg } from "../svgIcons/closeSvg";
 import Logo from "../../images/pibLogo.png";
 import { Link } from "react-router-dom";
+import { ROTA } from "../../variables";
 
 const Links = () => {
   return (
     <>
-      <Link to={"/"}>
+      <Link to={`${ROTA}`}>
         <MenuLink>Início</MenuLink>
       </Link>
-      <Link to={"/igreja"}>
+      <Link to={`${ROTA}igreja`}>
         <MenuLink>Igreja</MenuLink>
       </Link>
-      <Link to={"/programacao"}>
+      <Link to={`${ROTA}programacao`}>
         <MenuLink>Programação</MenuLink>
       </Link>
-      <Link to={"/eventos"}>
+      <Link to={`${ROTA}eventos`}>
         <MenuLink>Eventos</MenuLink>
       </Link>
-      <Link to={"/ministerios"}>
+      <Link to={`${ROTA}ministerios`}>
         <MenuLink>Ministérios</MenuLink>
       </Link>
-      <Link to={"/casas-de-paz"}>
+      <Link to={`${ROTA}casas-de-paz`}>
         <MenuLink>Casas de Paz</MenuLink>
       </Link>
       <a

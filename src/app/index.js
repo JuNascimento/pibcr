@@ -7,37 +7,39 @@ import HousesOfPeace from "../screens/housesOfPeace";
 import Ministries from "../screens/ministries";
 import Schedule from "../screens/schedule";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+// import { ScrollRestoration } from "react-router-dom";
 import { App } from "./index.styles";
-// import ScrollToTop from "../helpers/scrollToTop";
+
+import { ROTA } from "../variables";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: `${ROTA}`,
     element: <Home />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "igreja",
+    path: `${ROTA}igreja`,
     element: <About />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "eventos",
+    path: `${ROTA}eventos`,
     element: <Events />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "casas-de-paz",
+    path: `${ROTA}casas-de-paz`,
     element: <HousesOfPeace />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "ministerios",
+    path: `${ROTA}ministerios`,
     element: <Ministries />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "programacao",
+    path: `${ROTA}programacao`,
     element: <Schedule />,
     errorElement: <ErrorPage />,
   },

@@ -46,8 +46,12 @@ export const Footer = styled.footer`
 `;
 
 export const FooterDivision = styled.div`
-  width: 35%;
+  width: 30%;
   height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   @media ${devices.mobile} {
     width: 80%;
@@ -72,6 +76,7 @@ export const FooterTitle = styled.h2`
 export const FooterText = styled.h3`
   font-size: 13px;
   font-weight: 200;
+  text-align: center;
 `;
 
 export const SocialMediaIcons = styled.div`

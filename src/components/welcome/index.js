@@ -1,6 +1,7 @@
 import { Welcome, WelcomeText, WelcomeInfo } from "./index.styles";
 import { ArrowSvg } from "../../components/svgIcons/arrowSvg";
 import { Link } from "react-router-dom";
+import { ROTA } from "../../variables";
 
 const WelcomeContainer = () => {
   return (
@@ -15,7 +16,7 @@ const WelcomeContainer = () => {
       </WelcomeText>
       <WelcomeInfo>
         <h3>Vem dar uma olhada nas nossas atividades!</h3>
-        <Link to={"eventos"}>
+        <Link to={`${ROTA}eventos`}>
           <ArrowSvg degrees={0} color={"#151922"} />
         </Link>
       </WelcomeInfo>

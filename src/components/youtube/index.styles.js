@@ -46,7 +46,7 @@ export const YoutubeVideo = styled.div`
   @media ${devices.mobile} {
     margin: 50px 0;
     height: 45vw;
-    width: 40vw;
+    width: 90vw;
   }
 
   @media ${devices.tablet} {
