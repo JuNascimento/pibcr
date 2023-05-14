@@ -31,7 +31,11 @@ const AboutContainer = () => {
         <Emphasis>CAPACITAR</Emphasis>.
       </Description>
       <Line />
-      <SubtitleText>Venha conhecer um pouco mais da nossa Igreja</SubtitleText>
+      <Subtitle>
+        <SubtitleText>
+          Venha conhecer um pouco mais da nossa Igreja
+        </SubtitleText>
+      </Subtitle>
       <Description>
         Aqui você encontrará informações sobre os Ministérios e Projetos que
         temos, além de uma orientação geral acerca da dinâmica do funcionamento
@@ -86,7 +90,9 @@ const AboutContainer = () => {
           passar pela Escola de Líderes.
         </Description>
       </DescriptionDivision>
-      <SubtitleText>Estrutura da igreja</SubtitleText>
+      <Subtitle>
+        <SubtitleText>Estrutura da igreja</SubtitleText>
+      </Subtitle>
       <Description>
         A nossa Igreja é composta pelos Oficiais (Pastores e Diáconos). Também
         possui sua Diretoria e conta com dois Conselhos, o Administrativo (visa

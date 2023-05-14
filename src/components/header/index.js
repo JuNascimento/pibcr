@@ -10,7 +10,6 @@ import {
   LiveIcon,
 } from "./index.styles";
 import { OpenMenuSvg, CloseMenuSvg } from "../svgIcons/menuSvg";
-// import { CloseSvg } from "../svgIcons/closeSvg";
 import Logo from "../../images/pibLogo.png";
 import { Link } from "react-router-dom";
 import { ROTA } from "../../variables";
@@ -33,8 +32,8 @@ const Links = () => {
       <Link to={`${ROTA}ministerios`}>
         <MenuLink>Ministérios</MenuLink>
       </Link>
-      <Link to={`${ROTA}casas-de-paz`}>
-        <MenuLink>Casas de Paz</MenuLink>
+      <Link to={`${ROTA}pastores`}>
+        <MenuLink>Pastores</MenuLink>
       </Link>
       <a
         href="https://www.youtube.com/c/PIBCROficial/live"

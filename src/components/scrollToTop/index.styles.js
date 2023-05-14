@@ -15,6 +15,6 @@ export const ScrollToTopContainer = styled.div`
   margin-left: 90vw;
 
   @media ${devices.mobile} {
-    margin-left: 85vw;
+    margin-left: 80vw;
   }
 `;

@@ -41,7 +41,19 @@ export const CelebrationsInfo = styled.h3`
   }
 `;
 
+export const CelebrationItemList = styled.ul`
+  padding: 0;
+`;
+
 export const CelebrationItem = styled.li`
   list-style-type: none;
   font-weight: 200;
+
+  @media ${devices.mobile} {
+    text-align: center;
+  }
+
+  @media ${devices.tablet} {
+    text-align: center;
+  }
 `;

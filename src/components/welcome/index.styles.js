@@ -31,10 +31,12 @@ export const WelcomeText = styled.p`
 
   @media ${devices.mobile} {
     font-size: 4vw;
+    width: 100%;
   }
 
   @media ${devices.tablet} {
     font-size: 2.5vw;
+    width: 100%;
   }
 `;
 

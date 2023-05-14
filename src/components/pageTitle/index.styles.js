@@ -15,12 +15,6 @@ export const Title = styled.h1`
   text-align: center;
   margin-right: 20px;
   width: 80%;
-  /* display: flex;
-  justify-content: center;
-  width: 100vw;
-  height: 65vh;
-  overflow: hidden;
-  box-shadow: 0 0 10px #ccc; */
 `;
 
 export const Subtitle = styled.div`
@@ -34,8 +28,6 @@ export const SubtitleText = styled.h2`
   color: #ccc;
   font-size: 35px;
   text-align: center;
-  margin-right: 20px;
-  /* width: 80%; */
   font-weight: 500;
 
   a {
@@ -47,6 +39,7 @@ export const MapIcon = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 10px;
 `;
 
 export const Topic = styled.section``;
@@ -60,7 +53,6 @@ export const Description = styled.p`
 `;
 
 export const Emphasis = styled.span`
-  /* text-decoration: underline; */
   font-weight: 400;
   letter-spacing: 5px;
 `;

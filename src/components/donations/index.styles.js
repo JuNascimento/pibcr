@@ -31,10 +31,12 @@ export const DonationsText = styled.p`
 
   @media ${devices.mobile} {
     font-size: 4vw;
+    width: 100%;
   }
 
   @media ${devices.tablet} {
     font-size: 2.5vw;
+    width: 100%;
   }
 `;
 
@@ -109,7 +111,6 @@ export const DonationItemInfo = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 80%;
-  /* border: 1px solid red; */
 
   div {
     display: flex;

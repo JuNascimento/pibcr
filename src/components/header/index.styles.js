@@ -131,6 +131,8 @@ export const MenuLinks = styled.nav`
   flex-direction: column;
   width: 100%;
   z-index: 9;
+  border: 1px solid #ccc;
+  padding-bottom: 10px;
 `;
 
 export const MenuLink = styled.p`
@@ -149,12 +151,10 @@ export const MenuLink = styled.p`
   justify-content: center;
 
   @media ${devices.mobile} {
-    width: 100%;
     font-size: 3vw;
   }
 
   @media ${devices.tablet} {
-    width: 100%;
     font-size: 3vw;
   }
 

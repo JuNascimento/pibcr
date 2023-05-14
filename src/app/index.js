@@ -3,11 +3,10 @@ import Home from "../screens/home";
 import About from "../screens/about";
 import ErrorPage from "../screens/errorPage";
 import Events from "../screens/events";
-import HousesOfPeace from "../screens/housesOfPeace";
+import HousesOfPeace from "../screens/shepherds";
 import Ministries from "../screens/ministries";
 import Schedule from "../screens/schedule";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-// import { ScrollRestoration } from "react-router-dom";
 import { App } from "./index.styles";
 
 import { ROTA } from "../variables";
@@ -29,7 +28,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: `${ROTA}casas-de-paz`,
+    path: `${ROTA}pastores`,
     element: <HousesOfPeace />,
     errorElement: <ErrorPage />,
   },
@@ -48,7 +47,6 @@ const router = createBrowserRouter([
 const AppContainer = () => {
   return (
     <App>
-      {/* <ScrollRestoration /> */}
       <RouterProvider router={router} />
     </App>
   );
