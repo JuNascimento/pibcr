@@ -13,6 +13,11 @@ export const GlobalStyle = createGlobalStyle`
   a {
     text-decoration: none;
   }
+
+  a:link,
+  a:visited {
+    color: #ccc;
+  }
 `;
 
 export const PageContainer = styled.section`

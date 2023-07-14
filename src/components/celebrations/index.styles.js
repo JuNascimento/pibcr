@@ -35,10 +35,6 @@ export const CelebrationsInfo = styled.h3`
   a {
     text-decoration: underline;
   }
-
-  a:visited {
-    color: #ccc;
-  }
 `;
 
 export const CelebrationItemList = styled.ul`

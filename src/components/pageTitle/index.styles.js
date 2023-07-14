@@ -135,10 +135,6 @@ export const KnowMoreText = styled.h2`
   a {
     text-decoration: underline;
   }
-
-  a:visited {
-    color: #ccc;
-  }
 `;
 
 export const KnowMore = styled.div`
