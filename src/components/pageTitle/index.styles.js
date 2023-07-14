@@ -1,20 +1,11 @@
 import styled from "styled-components";
 import { devices } from "../../responsive";
+import { PageContainerDark } from "../../global.styles";
 
-export const About = styled.div`
+export const About = styled(PageContainerDark)`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 0;
-  box-shadow: 0 0 10px 0 #ccc;
-`;
-
-export const Title = styled.h1`
-  color: #ccc;
-  font-size: 40px;
-  text-align: center;
-  margin-right: 20px;
-  width: 80%;
 `;
 
 export const Subtitle = styled.div`

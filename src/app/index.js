@@ -3,7 +3,7 @@ import Home from "../screens/home";
 import About from "../screens/about";
 import ErrorPage from "../screens/errorPage";
 import Events from "../screens/events";
-import HousesOfPeace from "../screens/shepherds";
+import Shepherds from "../screens/shepherds";
 import Ministries from "../screens/ministries";
 import Schedule from "../screens/schedule";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
   },
   {
     path: `${ROTA}pastores`,
-    element: <HousesOfPeace />,
+    element: <Shepherds />,
     errorElement: <ErrorPage />,
   },
   {

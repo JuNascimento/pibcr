@@ -1,6 +1,5 @@
 import {
   About,
-  Title,
   Subtitle,
   SubtitleText,
   Description,
@@ -20,11 +19,16 @@ import { MarkerSvg } from "../svgIcons/markerSvg";
 import { Link } from "react-router-dom";
 import MyComponent from "../maps";
 import { ROTA } from "../../variables";
+import { PageTitle, PageTitleLabelDark } from "../../global.styles";
 
 const AboutContainer = () => {
   return (
     <About>
-      <Title>Olá, somos a Primeira Igreja Batista em Coelho da Rocha!</Title>
+      <PageTitle>
+        <PageTitleLabelDark>
+          Olá, somos a Primeira Igreja Batista em Coelho da Rocha!
+        </PageTitleLabelDark>
+      </PageTitle>
       <Description>
         Somos uma família que visa <Emphasis> ACOLHER</Emphasis>,{" "}
         <Emphasis>INTEGRAR</Emphasis>, <Emphasis>ACOMPANHAR</Emphasis> e{" "}

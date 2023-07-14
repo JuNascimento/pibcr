@@ -1,10 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import {
-  Events,
   Month,
-  EventsTitle,
-  EventsTitleLabel,
   EventsCategoryTitle,
   EventsContent,
   MonthTitle,
@@ -13,6 +10,12 @@ import {
   EventImageZoom,
   EventImages,
 } from "./index.styles";
+import {
+  PageContainerDark,
+  PageTitle,
+  PageTitleLabelDark,
+  IconTitle,
+} from "../../global.styles";
 import { EventSvg } from "../svgIcons/eventSvg";
 
 const MONTHS = [
@@ -51,11 +54,13 @@ const EventsContainer = () => {
 
   getCurrentMonth();
   return (
-    <Events>
-      <EventsTitle>
-        <EventsTitleLabel>Nossos eventos em 2023</EventsTitleLabel>
-        <EventSvg />
-      </EventsTitle>
+    <PageContainerDark>
+      <PageTitle>
+        <PageTitleLabelDark>Nossos eventos em 2023</PageTitleLabelDark>
+        <IconTitle>
+          <EventSvg />
+        </IconTitle>
+      </PageTitle>
       <EventsContent>
         <EventsCategoryTitle>Próximos</EventsCategoryTitle>
         {MONTHS.map((month, index) => {
@@ -117,7 +122,7 @@ const EventsContainer = () => {
           <EventImageZoom src={picture} onClick={() => setShowPicture(false)} />
         </Modal>
       )}
-    </Events>
+    </PageContainerDark>
   );
 };
 

@@ -1,24 +1,6 @@
 import styled from "styled-components";
 import { devices } from "../../responsive";
 
-export const Ministries = styled.section`
-  background-color: #ccc;
-  padding: 10px 0;
-`;
-
-export const MinistriesTitle = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-export const MinistriesTitleLabel = styled.h2`
-  color: #393d45;
-  font-size: 40px;
-  text-align: center;
-  margin-right: 20px;
-`;
-
 export const Subtitle = styled.section`
   display: flex;
   align-items: center;

@@ -3,9 +3,6 @@ import { useState } from "react";
 import { ScheduleSvg } from "../svgIcons/scheduleSvg";
 import { ArrowSvg } from "../svgIcons/arrowSvg";
 import {
-  Schedule,
-  ScheduleTitle,
-  ScheduleTitleLabel,
   ScheduleInfo,
   DaysOfWeek,
   Week,
@@ -14,6 +11,12 @@ import {
   WeekDayLabel,
 } from "./index.styles";
 import { schedule } from "./schedule";
+import {
+  PageContainerLight,
+  PageTitle,
+  PageTitleLabelLight,
+  IconTitle,
+} from "../../global.styles";
 
 const WEEKDAYS = [
   "domingo",
@@ -53,11 +56,13 @@ const WeekDay = (props) => {
 
 const ScheduleContainer = () => {
   return (
-    <Schedule>
-      <ScheduleTitle>
-        <ScheduleTitleLabel>Programação semanal</ScheduleTitleLabel>
-        <ScheduleSvg />
-      </ScheduleTitle>
+    <PageContainerLight>
+      <PageTitle>
+        <PageTitleLabelLight>Programação semanal</PageTitleLabelLight>
+        <IconTitle>
+          <ScheduleSvg />
+        </IconTitle>
+      </PageTitle>
 
       <ScheduleInfo>
         <Week>
@@ -66,7 +71,7 @@ const ScheduleContainer = () => {
           })}
         </Week>
       </ScheduleInfo>
-    </Schedule>
+    </PageContainerLight>
   );
 };
 

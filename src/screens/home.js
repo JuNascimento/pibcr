@@ -5,6 +5,7 @@ import WelcomeContainer from "../components/welcome";
 import DonationsContainer from "../components/donations";
 import YoutubeContainer from "../components/youtube";
 import CarouselContainer from "../components/carousel";
+import ContactUsContainer from "../components/contactUs";
 import ScrollToTop from "../helpers/scrollToTop";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <WelcomeContainer />
       <DonationsContainer />
       <YoutubeContainer />
+      <ContactUsContainer />
       <FooterContainer />
     </ScrollToTop>
   );

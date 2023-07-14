@@ -1,32 +1,6 @@
 import styled from "styled-components";
 import { devices } from "../../responsive";
 
-export const Schedule = styled.section`
-  background-color: #ccc;
-  padding: 10px 0;
-`;
-
-export const ScheduleTitle = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-export const ScheduleTitleLabel = styled.h2`
-  color: #393d45;
-  font-size: 3vw;
-  text-align: center;
-  margin-right: 20px;
-
-  @media ${devices.mobile} {
-    font-size: 6vw;
-  }
-
-  @media ${devices.tablet} {
-    font-size: 5vw;
-  }
-`;
-
 export const ScheduleInfo = styled.section`
   width: 100%;
   display: flex;
