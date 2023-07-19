@@ -114,11 +114,16 @@ class MinistriesContainer extends Component {
             <MinistryInfo>
               <MinistryDescription>
                 <MinistryDescriptionText left={false}>
-                  Existe para alcançar jovens para Cristo, discipulando-os e
-                  tendo como regra de fé e prática a Palavra de Deus, a fim de
-                  que cresçam em conhecimento e maturidade espiritual, com
-                  vistas ao desenvolvimento de futuros líderes em potencial.
-                  Realizamos encontros, cultos, acampamentos, etc.
+                  Somos a Juventude Conectada. Somos uma juventude que conecta
+                  gerações e fases de vida diferentes. Nossa principal conexão é
+                  com Deus através de Jesus. Ele nos conectou através do seu
+                  sangue e abriu um novo e vivo caminho de comunhão com o Pai e
+                  uns com os outros. Somos conectados uns aos outros nos
+                  inspirando mutuamente, respeitando cada fase de vida e
+                  promovendo crescimento espiritual saudável, despertamento
+                  vocacional e maturidade cristã. Somos conectados a Jesus,
+                  conectados entre si por Jesus para conectar outros jovens a
+                  Jesus (1 Pe 2.9).
                 </MinistryDescriptionText>
               </MinistryDescription>
               <MinistryLogo src="images/ministerio-juventude.png" />
