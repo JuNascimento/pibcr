@@ -5,6 +5,7 @@ import {
   Description,
   DescriptionText,
   Photo,
+  SocialMediaIcon,
 } from "./index.styles";
 import {
   PageContainerDark,
@@ -20,35 +21,93 @@ const ShepherdsDescriptions = () => {
       </PageTitle>
       <Descriptions>
         <Shepherd>
-          <Name>Jonatas Cuppello Venlioles</Name>
+          <Name>Pr. Jônatas Cuppello Venlioles</Name>
           <Description>
             <DescriptionText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisl
-              felis, malesuada sed dictum et, finibus vel risus. Pellentesque et
-              semper diam. Suspendisse id velit non turpis congue semper. Nulla
-              porta odio id ipsum mollis iaculis. Nullam vulputate turpis neque,
-              eu fringilla dui feugiat a. Nunc ut leo id massa ultrices
-              vehicula. Maecenas eu nunc a leo porta porttitor ac quis magna.
-              Proin mi leo, commodo sed neque ac, euismod pretium nulla. Aenean
-              auctor, diam non facilisis efficitur, dolor massa molestie ante,
-              et efficitur nulla leo ut libero. Quisque eu arcu vitae orci
-              tristique porttitor. Quisque facilisis ultricies ipsum ac varius.
+              Pastor Presidente, formado em Teologia pelo Instituto de Educação
+              Teológica e em Administração de Empresas pela UNIFESO. Casado com
+              Irinete, tendo duas filhas: Júlia e Mariana. Conferencista e
+              Escritor, escreveu os seguintes livros: O Tempo de Deus e o nosso
+              Tempo; Cumprindo, hoje, a Missão de Deus; Renovando a Fé; Sem
+              Tropeçar; Sede do Deus Vivo; Contagiados pelo Amor; Quem vocês
+              dizem que eu sou; O agir de Deus em meio ao caos; e O Agir de Deus
+              na Família.
+              <a
+                href="https://www.instagram.com/prjonatasvenlioles/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <SocialMediaIcon>
+                  <img src="images/instagram.png" width="28px" />
+                </SocialMediaIcon>
+              </a>
             </DescriptionText>
-            <Photo />
+            <Photo src={"images/sheperds/jonatas.jpeg"} />
           </Description>
         </Shepherd>
         <Shepherd>
-          <Name>Pr. Sander Alexander Santanna da Silveira</Name>
+          <Name>Pr. Alexander Santanna da Silveira</Name>
           <Description>
             <DescriptionText>
-              Pastor auxiliar da PIBCR, líder da Juventude Conectada. Casado a
-              25 anos com Sheila Peixoto, pai da Isabela e Isaque. Formado em
-              Música Sacra pelo Seminário Teológico Batista do Sul do Brasil em
-              2001 e em Teologia pelo Seminário Teológico Betel em 2017. Tem o
-              coração inflamado por Missões e Evangelização Local. Dentre suas
-              vocações também estão o ensino das Escrituras.
+              Pastor auxiliar da PIBCR, líder da Juventude Conectada. Com Sheila
+              Peixoto, pai da Isabela e Isaque. Formado em Música Sacra pelo
+              Seminário Teológico Batista do Sul do Brasil em 2001 e em Teologia
+              pelo Seminário Teológico Betel em 2017. Tem o coração inflamado
+              por Missões e Evangelização Local. Dentre suas vocações também
+              estão o ensino das Escrituras.
+              <a
+                href="https://www.instagram.com/pastor.sander/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <SocialMediaIcon>
+                  <img src="images/instagram.png" width="28px" />
+                </SocialMediaIcon>
+              </a>
             </DescriptionText>
             <Photo src={"images/sheperds/sander.jpeg"} />
+          </Description>
+        </Shepherd>
+        <Shepherd>
+          <Name>Pr. Alcinei de Oliveira Alves</Name>
+          <Description>
+            <DescriptionText>
+              Pastor líder do ministério de homens e grupo de casais. Casado com
+              Ana Paula, Bacharel em Teologia, pai de dois filhos, Matheus e
+              Lucas. Além de participar dos Mininistérios de Louvor e
+              Intercessão.
+              <a
+                href="https://www.instagram.com/soualcinei1/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <SocialMediaIcon>
+                  <img src="images/instagram.png" width="28px" />
+                </SocialMediaIcon>
+              </a>
+            </DescriptionText>
+            <Photo src={"images/sheperds/nei.jpeg"} />
+          </Description>
+        </Shepherd>
+        <Shepherd>
+          <Name>Pr. Crispo Sostnes Freitas de Sousa</Name>
+          <Description>
+            <DescriptionText>
+              Pastor líder do Ministério Vida Ativa. Casado com Elizete, formado
+              em Teologia pela Faculdade Evangélica de Teologia no Seminário
+              Unidos de Duque de Caxias.
+            </DescriptionText>
+            <Photo src={"images/sheperds/crispo.jpeg"} />
+          </Description>
+        </Shepherd>
+        <Shepherd>
+          <Name>Pr. Joanes Costa de Oliveira</Name>
+          <Description>
+            <DescriptionText>
+              Pastor líder do Ministério Resgate. Casado com Maria da Penha e
+              pai de três filhos. Formado em Enfermagem e Teologia.
+            </DescriptionText>
+            <Photo src={"images/sheperds/joanes.jpeg"} />
           </Description>
         </Shepherd>
       </Descriptions>

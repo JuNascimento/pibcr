@@ -16,19 +16,19 @@ class DemoCarousel extends Component {
           <div>
             <SliderImage
               height={"100%"}
-              src="images/sliderEvents/encontro_casais.jpeg"
+              src="images/sliderEvents/placeholder-1800-720.png"
             />
           </div>
           <div>
             <SliderImage
               height={"100%"}
-              src="images/sliderEvents/encontro_casais.jpeg"
+              src="images/sliderEvents/placeholder-1800-720.png"
             />
           </div>
           <div>
             <SliderImage
               height={"100%"}
-              src="images/sliderEvents/encontro_casais.jpeg"
+              src="images/sliderEvents/placeholder-1800-720.png"
             />
           </div>
         </Carousel>
