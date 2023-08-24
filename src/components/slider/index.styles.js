@@ -4,9 +4,10 @@ export const Slider = styled.section`
   display: flex;
   justify-content: center;
   width: 100vw;
-  max-height: 65vh;
+  /* max-height: 65vh; */
   overflow: hidden;
   box-shadow: 0 0 10px 0 #ccc;
+  /* aspect-ratio: 2; */
 `;
 
 export const SliderItem = styled.div`
@@ -42,5 +43,9 @@ export const SliderLabel = styled.p`
 
 export const SliderImage = styled.img`
   /* opacity: ${(props) => (props.isHome ? "0.8" : "0.1")}; */
-  max-height: 65vh;
+  /* max-height: 65vh; */
+  aspect-ratio: 2;
+  /* object-fit: scale-down; */
+  max-width: 100%;
+  height: auto;
 `;

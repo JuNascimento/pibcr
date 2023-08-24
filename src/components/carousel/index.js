@@ -14,13 +14,10 @@ class DemoCarousel extends Component {
           dynamicHeight={false}
         >
           <div>
-            <SliderImage
-              height={"100%"}
-              src="images/sliderEvents/batismo.jpeg"
-            />
+            <SliderImage src="images/sliderEvents/batismo.jpeg" />
           </div>
           <div>
-            <SliderImage height={"100%"} src="images/sliderEvents/ceia.jpeg" />
+            <SliderImage src="images/sliderEvents/ceia.jpeg" />
           </div>
         </Carousel>
       </Slider>
