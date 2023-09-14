@@ -76,7 +76,7 @@ const DonationsContainer = () => {
                 <p>
                   <strong>Santander</strong>
                 </p>
-                <img src="images/pix-pib.jpeg" width={"100%"} />
+                <img src="images/pix-pib.png" width={"100%"} />
               </DonationItemInfo>
               <>
                 <DonationCopyPaste>

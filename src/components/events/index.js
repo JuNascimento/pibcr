@@ -71,20 +71,20 @@ const EventsContainer = () => {
                 <MonthTitle>{month}</MonthTitle>
                 <EventImages>
                   <EventImage
-                    src="images/foto3.jpeg"
-                    onClick={() => onClick("images/foto3.jpeg")}
+                    src="images/foto3.png"
+                    onClick={() => onClick("images/foto3.png")}
                   />
                   <EventImage
-                    src="images/foto3.jpeg"
-                    onClick={() => onClick("images/foto3.jpeg")}
+                    src="images/foto3.png"
+                    onClick={() => onClick("images/foto3.png")}
                   />
                   <EventImage
-                    src="images/foto4.jpeg"
-                    onClick={() => onClick("images/foto4.jpeg")}
+                    src="images/foto4.png"
+                    onClick={() => onClick("images/foto4.png")}
                   />
                   <EventImage
-                    src="images/foto5.jpeg"
-                    onClick={() => onClick("images/foto5.jpeg")}
+                    src="images/foto5.png"
+                    onClick={() => onClick("images/foto5.png")}
                   />
                 </EventImages>
               </Month>
@@ -100,16 +100,16 @@ const EventsContainer = () => {
                 <MonthTitle>{month}</MonthTitle>
                 <EventImages>
                   <EventImage
-                    src="images/seminario-iniciacao-profetica.jpeg"
-                    onClick={() => onClick("images/foto3.jpeg")}
+                    src="images/seminario-iniciacao-profetica.png"
+                    onClick={() => onClick("images/foto3.png")}
                   />
                   <EventImage
-                    src="images/foto4.jpeg"
-                    onClick={() => onClick("images/foto4.jpeg")}
+                    src="images/foto4.png"
+                    onClick={() => onClick("images/foto4.png")}
                   />
                   <EventImage
-                    src="images/foto5.jpeg"
-                    onClick={() => onClick("images/foto5.jpeg")}
+                    src="images/foto5.png"
+                    onClick={() => onClick("images/foto5.png")}
                   />
                 </EventImages>
               </Month>

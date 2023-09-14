@@ -152,7 +152,7 @@ class MinistriesContainer extends Component {
                   hinos que remetem a Deus e a seus feitos e maravilhas.
                 </MinistryDescriptionText>
               </MinistryDescription>
-              <MinistryLogo src="images/logo_default.jpeg" />
+              <MinistryLogo src="images/logo_default.png" />
             </MinistryInfo>
           </Ministry>
           <Ministry>
@@ -221,7 +221,7 @@ class MinistriesContainer extends Component {
           <Ministry>
             <MinistryName>Ministério DNA de Deus </MinistryName>
             <MinistryInfo>
-              <MinistryLogo src="images/logo_default.jpeg" />
+              <MinistryLogo src="images/logo_default.png" />
               <MinistryDescription>
                 <MinistryDescriptionText left={true}>
                   Existe para levar a palavra de Deus através de ministrações
@@ -270,13 +270,13 @@ class MinistriesContainer extends Component {
                   Igreja, mas os levando para fora da Igreja.
                 </MinistryDescriptionText>
               </MinistryDescription>
-              <MinistryLogo src="images/logo_default.jpeg" />
+              <MinistryLogo src="images/logo_default.png" />
             </MinistryInfo>
           </Ministry>
           <Ministry>
             <MinistryName>Ministério de Tecnologia e Suporte </MinistryName>
             <MinistryInfo>
-              <MinistryLogo src="images/logo_default.jpeg" />
+              <MinistryLogo src="images/logo_default.png" />
               <MinistryDescription>
                 <MinistryDescriptionText left={true}>
                   Setor específico de apoio aos Ministérios, voltado para o
@@ -301,7 +301,7 @@ class MinistriesContainer extends Component {
                   de integração de novos membros.
                 </MinistryDescriptionText>
               </MinistryDescription>
-              <MinistryLogo src="images/logo_default.jpeg" />
+              <MinistryLogo src="images/logo_default.png" />
             </MinistryInfo>
           </Ministry>
           <Ministry>
@@ -332,7 +332,7 @@ class MinistriesContainer extends Component {
                   líderes. Antecipa-se aos projetos em intercessão.
                 </MinistryDescriptionText>
               </MinistryDescription>
-              <MinistryLogo src="images/logo_default.jpeg" />
+              <MinistryLogo src="images/logo_default.png" />
             </MinistryInfo>
           </Ministry>
           <Ministry>
@@ -360,7 +360,7 @@ class MinistriesContainer extends Component {
                   as mulheres.
                 </MinistryDescriptionText>
               </MinistryDescription>
-              <MinistryLogo src="images/logo_default.jpeg" />
+              <MinistryLogo src="images/logo_default.png" />
             </MinistryInfo>
           </Ministry>
           <Ministry>
@@ -463,13 +463,13 @@ class MinistriesContainer extends Component {
                   passar pela Escola de Líderes.
                 </MinistryDescriptionText>
               </MinistryDescription>
-              <MinistryLogo src="images/logo_default.jpeg" />
+              <MinistryLogo src="images/logo_default.png" />
             </MinistryInfo>
           </Ministry>
           <Ministry>
             <MinistryName>Projeto discipulo Amado</MinistryName>
             <MinistryInfo>
-              <MinistryLogo src="images/logo_default.jpeg" />
+              <MinistryLogo src="images/logo_default.png" />
               <MinistryDescription>
                 <MinistryDescriptionText left={false}>
                   Líderes que acompanham e discipulam outros membros. Pelo menos
@@ -521,13 +521,13 @@ class MinistriesContainer extends Component {
                   emocional e espiritual. Em breve.
                 </MinistryDescriptionText>
               </MinistryDescription>
-              <MinistryLogo src="images/logo_default.jpeg" />
+              <MinistryLogo src="images/logo_default.png" />
             </MinistryInfo>
           </Ministry>
           <Ministry>
             <MinistryName>Escolinha de Futebol </MinistryName>
             <MinistryInfo>
-              <MinistryLogo src="images/logo_default.jpeg" />
+              <MinistryLogo src="images/logo_default.png" />
               <MinistryDescription>
                 <MinistryDescriptionText left={true}>
                   Estamos elaborando uma escolinha para garotos de 5 a 12 anos.

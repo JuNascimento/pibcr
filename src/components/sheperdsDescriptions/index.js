@@ -42,7 +42,7 @@ const ShepherdsDescriptions = () => {
                 </SocialMediaIcon>
               </a>
             </DescriptionText>
-            <Photo src={"images/sheperds/jonatas.jpeg"} />
+            <Photo src={"images/sheperds/jonatas.png"} />
           </Description>
         </Shepherd>
         <Shepherd>
@@ -65,7 +65,7 @@ const ShepherdsDescriptions = () => {
                 </SocialMediaIcon>
               </a>
             </DescriptionText>
-            <Photo src={"images/sheperds/sander.jpeg"} />
+            <Photo src={"images/sheperds/sander.png"} />
           </Description>
         </Shepherd>
         <Shepherd>
@@ -86,7 +86,7 @@ const ShepherdsDescriptions = () => {
                 </SocialMediaIcon>
               </a>
             </DescriptionText>
-            <Photo src={"images/sheperds/nei.jpeg"} />
+            <Photo src={"images/sheperds/nei.png"} />
           </Description>
         </Shepherd>
         <Shepherd>
@@ -97,7 +97,7 @@ const ShepherdsDescriptions = () => {
               em Teologia pela Faculdade Evangélica de Teologia no Seminário
               Unidos de Duque de Caxias.
             </DescriptionText>
-            <Photo src={"images/sheperds/crispo.jpeg"} />
+            <Photo src={"images/sheperds/crispo.png"} />
           </Description>
         </Shepherd>
         <Shepherd>
@@ -107,7 +107,7 @@ const ShepherdsDescriptions = () => {
               Pastor líder do Ministério Resgate. Casado com Maria da Penha e
               pai de três filhos. Formado em Enfermagem e Teologia.
             </DescriptionText>
-            <Photo src={"images/sheperds/joanes.jpeg"} />
+            <Photo src={"images/sheperds/joanes.png"} />
           </Description>
         </Shepherd>
       </Descriptions>
