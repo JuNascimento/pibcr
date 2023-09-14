@@ -2,7 +2,6 @@
   "name": "pibcr",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://JuNascimento.github.io/pibcr",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.16.5",
