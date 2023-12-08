@@ -17,13 +17,10 @@ class DemoCarousel extends Component {
             <SliderImage src="images/sliderEvents/aniver-igreja.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/batismo-dezembro-2023.jpeg" />
+            <SliderImage src="images/sliderEvents/batismo-dezembro-2023.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/jejum-oracao-dezembro-2023.jpeg" />
-          </div>
-          <div>
-            <SliderImage src="images/sliderEvents/batismo.png" />
+            <SliderImage src="images/sliderEvents/jejum-oracao-dezembro-2023.png" />
           </div>
         </Carousel>
       </Slider>
