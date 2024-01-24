@@ -14,13 +14,22 @@ class DemoCarousel extends Component {
           dynamicHeight={false}
         >
           <div>
-            <SliderImage src="images/sliderEvents/acao-evangelistica-dez-2023.png" />
+            <SliderImage src="images/sliderEvents/culto-jovem-sonhos.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/culto-natal-dez-2023.png" />
+            <SliderImage src="images/sliderEvents/curso-noivos.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/fim-de-ano-dez-2023.png" />
+            <SliderImage src="images/sliderEvents/despertamento-renovo.png" />
+          </div>
+          <div>
+            <SliderImage src="images/sliderEvents/escola-lideres.png" />
+          </div>
+          <div>
+            <SliderImage src="images/sliderEvents/retorno-ebd.png" />
+          </div>
+          <div>
+            <SliderImage src="talmidim-ferias.png" />
           </div>
         </Carousel>
       </Slider>
