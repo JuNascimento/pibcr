@@ -14,7 +14,16 @@ class DemoCarousel extends Component {
           dynamicHeight={false}
         >
           <div>
-            <SliderImage src="images/sliderEvents/jejum-e-oracao-fevereiro.png" />
+            <SliderImage src="images/sliderEvents/educando-filhos.png" />
+          </div>
+          <div>
+            <SliderImage src="images/sliderEvents/homem-ao-maximo.png" />
+          </div>
+          <div>
+            <SliderImage src="images/sliderEvents/mulher-unica.png" />
+          </div>
+          <div>
+            <SliderImage src="images/sliderEvents/poder-da-alicanca-2024.png" />
           </div>
         </Carousel>
       </Slider>
