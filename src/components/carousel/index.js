@@ -28,6 +28,9 @@ class DemoCarousel extends Component {
           <div>
             <SliderImage src="images/sliderEvents/quilo_do_amor.png" />
           </div>
+          <div>
+            <SliderImage src="images/sliderEvents/culto_homens_marco.png" />
+          </div>
         </Carousel>
       </Slider>
     );
