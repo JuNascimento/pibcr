@@ -17,9 +17,6 @@ class DemoCarousel extends Component {
             <SliderImage src="images/sliderEvents/jejum-oracao-abril.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/casas-de-paz-abril.png" />
-          </div>
-          <div>
             <SliderImage src="images/sliderEvents/encontro-a3-abril.png" />
           </div>
           <div>
