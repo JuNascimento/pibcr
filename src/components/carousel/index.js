@@ -14,22 +14,19 @@ class DemoCarousel extends Component {
           dynamicHeight={false}
         >
           <div>
-            <SliderImage src="images/sliderEvents/celebrando_a_transformacao.png" />
+            <SliderImage src="images/sliderEvents/jejum-oracao-abril.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/culto_mulheres_marco.png" />
+            <SliderImage src="images/sliderEvents/casas-de-paz-abril.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/culto_no_lar.png" />
+            <SliderImage src="images/sliderEvents/encontro-a3-abril.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/peca_teatro_pascoa.png" />
+            <SliderImage src="images/sliderEvents/encontro-redes-abril.png" />
           </div>
           <div>
             <SliderImage src="images/sliderEvents/quilo_do_amor.png" />
-          </div>
-          <div>
-            <SliderImage src="images/sliderEvents/culto_homens_marco.png" />
           </div>
         </Carousel>
       </Slider>
