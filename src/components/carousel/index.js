@@ -17,13 +17,16 @@ class DemoCarousel extends Component {
             <SliderImage src="images/sliderEvents/mes-familia.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/escola-ide.png" />
+            <SliderImage src="images/sliderEvents/batismo-maio.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/lancamento-livro.png" />
+            <SliderImage src="images/sliderEvents/culto-colheita-maio.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/semana-jejum.png" />
+            <SliderImage src="images/sliderEvents/culto-jobem-maio.png" />
+          </div>
+          <div>
+            <SliderImage src="images/sliderEvents/testemunho.png" />
           </div>
         </Carousel>
       </Slider>
