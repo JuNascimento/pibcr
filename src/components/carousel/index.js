@@ -14,25 +14,22 @@ class DemoCarousel extends Component {
           dynamicHeight={false}
         >
           <div>
-            <SliderImage src="images/sliderEvents/ceia-julho.png" />
+            <SliderImage src="images/sliderEvents/culto-adolescentes-julho.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/comunicado-talmidim.png" />
+            <SliderImage src="images/sliderEvents/homem-ao-maximo-setembro.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/retiro_casais.png" />
+            <SliderImage src="images/sliderEvents/mulher-unica-setembro.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/culto-na-praca.png" />
+            <SliderImage src="images/sliderEvents/poder-da-alianca-setembro.png" />
           </div>
           <div>
             <SliderImage src="images/sliderEvents/ebf.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/quartas-avivamento.png" />
-          </div>
-          <div>
-            <SliderImage src="images/sliderEvents/semana-jejum-julho.png" />
+            <SliderImage src="images/sliderEvents/quartas-avivamento-2.png" />
           </div>
           <div>
             <SliderImage src="images/sliderEvents/talmidim-mais-q-vencedores.png" />
