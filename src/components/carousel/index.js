@@ -31,6 +31,18 @@ class DemoCarousel extends Component {
           <div>
             <SliderImage src="images/sliderEvents/curso-libras.png" />
           </div>
+          <div>
+            <SliderImage src="images/sliderEvents/cine-casais.png" />
+          </div>
+          <div>
+            <SliderImage src="images/sliderEvents/culto-adolescentes-julho-26.png" />
+          </div>
+          <div>
+            <SliderImage src="images/sliderEvents/culto-praca-julho.png" />
+          </div>
+          <div>
+            <SliderImage src="images/sliderEvents/escola-lideres-agosto.png" />
+          </div>
         </Carousel>
       </Slider>
     );
