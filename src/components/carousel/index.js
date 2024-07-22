@@ -26,13 +26,13 @@ class DemoCarousel extends Component {
             <SliderImage src="images/sliderEvents/poder-da-alianca-setembro.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/ebf.png" />
+            <SliderImage src="images/sliderEvents/celebrando-julho.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/quartas-avivamento-2.png" />
+            <SliderImage src="images/sliderEvents/educando-filhos-julho-22.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/talmidim-mais-q-vencedores.png" />
+            <SliderImage src="images/sliderEvents/curso-libras.png" />
           </div>
         </Carousel>
       </Slider>
