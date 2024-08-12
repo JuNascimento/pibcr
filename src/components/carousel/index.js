@@ -14,34 +14,16 @@ class DemoCarousel extends Component {
           dynamicHeight={false}
         >
           <div>
-            <SliderImage src="images/sliderEvents/homem-ao-maximo-setembro.png" />
+            <SliderImage src="images/sliderEvents/be-like-jesus.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/mulher-unica-setembro.png" />
+            <SliderImage src="images/sliderEvents/connect-conference.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/poder-da-alianca-setembro.png" />
+            <SliderImage src="images/sliderEvents/quartas-avivamento-agosto.png" />
           </div>
           <div>
-            <SliderImage src="images/sliderEvents/celebrando-julho.png" />
-          </div>
-          <div>
-            <SliderImage src="images/sliderEvents/educando-filhos-julho-22.png" />
-          </div>
-          <div>
-            <SliderImage src="images/sliderEvents/curso-libras.png" />
-          </div>
-          <div>
-            <SliderImage src="images/sliderEvents/cine-casais.png" />
-          </div>
-          <div>
-            <SliderImage src="images/sliderEvents/culto-adolescentes-julho-26.png" />
-          </div>
-          <div>
-            <SliderImage src="images/sliderEvents/culto-praca-julho.png" />
-          </div>
-          <div>
-            <SliderImage src="images/sliderEvents/escola-lideres-agosto.png" />
+            <SliderImage src="images/sliderEvents/funcional.png" />
           </div>
         </Carousel>
       </Slider>
